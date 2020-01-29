@@ -10,7 +10,7 @@ function find() {
   return db("users");
 }
 
-function findBy() {
+function findBy(filter) {
   return db("users").where(filter);
 }
 function add(user) {
